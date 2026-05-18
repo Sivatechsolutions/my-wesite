@@ -1,0 +1,80 @@
+.testimonials { position: relative; overflow: hidden; }
+
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-bottom: 70px;
+}
+
+.testimonial-card { padding: 28px 24px; display: flex; flex-direction: column; gap: 16px; }
+.testimonial-card:hover { border-color: var(--border-gold); box-shadow: var(--shadow-gold); transform: translateY(-4px); }
+
+.testimonial-top { display: flex; justify-content: space-between; align-items: center; }
+.stars { color: var(--gold); font-size: 16px; letter-spacing: 1px; }
+
+.testimonial-text {
+  color: var(--text-secondary);
+  font-size: 14.5px;
+  line-height: 1.75;
+  font-style: italic;
+  flex: 1;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.author-avatar {
+  width: 44px; height: 44px;
+  background: rgba(201,168,76,0.08);
+  border: 1px solid var(--border-gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+.author-name { font-family: 'Rajdhani', sans-serif; font-weight: 700; font-size: 16px; }
+.author-business { color: var(--text-muted); font-size: 12px; margin-top: 2px; }
+
+/* TRUST SECTION */
+.trust-section {
+  background: rgba(255,255,255,0.01);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 48px;
+}
+.trust-title {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 36px;
+  color: var(--text-primary);
+}
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.trust-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.trust-icon { font-size: 28px; flex-shrink: 0; }
+.trust-item-title { font-family: 'Rajdhani', sans-serif; font-weight: 700; font-size: 16px; margin-bottom: 4px; }
+.trust-item-desc { color: var(--text-secondary); font-size: 13px; line-height: 1.5; }
+
+@media (max-width: 900px) {
+  .testimonials__grid { grid-template-columns: repeat(2, 1fr); }
+  .trust-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .testimonials__grid { grid-template-columns: 1fr; }
+  .trust-grid { grid-template-columns: 1fr; }
+  .trust-section { padding: 28px 20px; }
+}

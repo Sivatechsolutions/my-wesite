@@ -1,0 +1,88 @@
+.footer {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-gold);
+}
+
+.footer__top { padding: 64px 0 48px; }
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 48px;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.footer__logo-name {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 1px;
+}
+.footer__logo-tag { color: var(--text-muted); font-size: 11px; margin-top: 2px; }
+
+.footer__brand-desc {
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.footer__contact-quick { display: flex; flex-direction: column; gap: 8px; }
+.footer__quick-item {
+  color: var(--text-secondary);
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer__quick-item:hover { color: var(--gold); }
+
+.footer__col-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.footer__links { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+.footer__link {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-family: 'Exo 2', sans-serif;
+  font-size: 13.5px;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  transition: color 0.2s;
+}
+.footer__link:hover { color: var(--gold); }
+
+.footer__bottom {
+  border-top: 1px solid var(--border);
+  padding: 20px 0;
+}
+.footer__bottom-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.footer__copy { color: var(--text-muted); font-size: 12.5px; }
+.footer__dev { color: var(--text-muted); font-size: 12.5px; }
+.footer__dev span { color: var(--gold); }
+
+@media (max-width: 1000px) { .footer__grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 600px) {
+  .footer__grid { grid-template-columns: 1fr; gap: 32px; }
+  .footer__bottom-inner { flex-direction: column; text-align: center; }
+}
