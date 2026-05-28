@@ -74,10 +74,11 @@ export default function Footer({ setActivePage }) {
               {[
                 "Software Development",
                 "Web Development",
-                "CCTV Installation",
+                "Computer Sales & Repair",
                 "Networking Setup",
                 "Biometric Systems",
-                "Computer Sales & Repair",
+                "CCTV Setup",
+                "IT infrastructure",
                 "IT Consulting",
                 "AMC / Support",
               ].map((s, i) => (

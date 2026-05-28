@@ -10,11 +10,13 @@ const values = [
 
 const milestones = [
   { year: "2020", event: "Founded Siva Tech Solutions in Padanthalumoodu, Kanyakumari" },
-  { year: "2021", event: "Launched first software product — Gold Finance / Pawn Management System" },
+  { year: "2021", event: "Started the journey with Computer Sales & Service and complete IT Solutions and businesses" },
   { year: "2022", event: "Expanded to CCTV, Networking & Biometric installations across district" },
-  { year: "2023", event: "Built MediLab Pro, HospitalMate Pro & MediPharmacy software products" },
-  { year: "2024", event: "Launched ShopMate POS, GST Billing & TradeShop Pro products" },
-  { year: "2025", event: "200+ clients served. Expanding to Trivandrum & regional SaaS delivery" },
+  { year: "2023", event: "Launched the first software product — Gold Finance / Pawn Management System." },
+  
+  { year: "2024", event: "Built MediLab Pro, HospitalMate Pro & MediPharmacy software products" },
+  { year: "2025", event: "Launched ShopMate POS, GST Billing & TradeShop Pro products" },
+  { year: "2026", event: "100+ clients served. Expanding to Trivandrum & regional SaaS delivery" },
 ];
 
 export default function About() {
@@ -25,7 +27,7 @@ export default function About() {
         {/* HEADER */}
         <div className="section-header">
           <div className="section-tag">About Us</div>
-          <h2 className="section-title">Kanyakumari's Most <span>Trusted IT Partner</span></h2>
+          <h1 className="section-title"> <span>Complete IT & Software Solutions for Modern Businesses</span></h1>
           <span className="gold-line"/>
         </div>
 
@@ -39,8 +41,8 @@ export default function About() {
             </p>
             <p style={{ marginTop: 16 }}>
               Our expertise spans from PHP/MySQL-based vertical SaaS products for hospitals, labs, pharmacies,
-              and finance companies — to hardware solutions like CCTV installations, networking, biometric systems,
-              and computer sales & service.
+              and finance companies — to hardware solutions like Computer sales & Service, CCTV installations, networking, biometric systems,
+              and IT infrastructure setup,Online support and solution.
             </p>
             <p style={{ marginTop: 16, color: "var(--text-secondary)" }}>
               Serving the <strong style={{ color: "var(--cyan)" }}>Kanyakumari–Nagercoil–Trivandrum</strong> belt with 
@@ -60,10 +62,12 @@ export default function About() {
   src={sivaPhoto} 
   alt="R. Siva Prakash" 
   style={{ 
-    width: "150%", 
-    height: "150%", 
-    objectFit: "cover", 
-    borderRadius: "12px"
+    width: "130%", 
+    height: "130%", 
+    objectFit: "cover",
+    objectPosition: "center top",
+    borderRadius: "12px",
+    display: "block"
   }} 
 />
 
@@ -73,7 +77,7 @@ export default function About() {
             <p className="founder-qual">Software Engineering</p>
             <div className="founder-divider"/>
             <p className="founder-quote">
-              "Our mission is to bring enterprise-level technology to every small business in our district."
+              "Our mission is to deliver reliable, affordable, and enterprise-level technology solutions to every small business in our Customers helping them grow through digital transformation and smart IT innovation.”
             </p>
             <div className="founder-contacts">
               <a href="tel:9489651231" className="founder-contact">📞 9489651231</a>

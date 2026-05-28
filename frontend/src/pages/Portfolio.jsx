@@ -5,7 +5,7 @@ const portfolioItems = [
     title: "Swathy Finance – Gold Loan System",
     category: "Finance Software",
     icon: "🥇",
-    location: "Nagercoil / Vellayani",
+    location: " Vellayani",
     desc: "Complete gold pawn loan management system with dot matrix printing, slab interest calculation, branch management and bank pledge module.",
     tech: ["PHP", "MySQL", "XAMPP", "Bootstrap"],
     status: "Live",
@@ -104,10 +104,14 @@ export default function Portfolio() {
         {/* STATS ROW */}
         <div className="portfolio__stats">
           {[
-            { value: "200+", label: "Happy Clients" },
+            { value: "100+", label: "Happy Clients" },
             { value: "15+", label: "Software Products" },
-            { value: "50+", label: "CCTV Projects" },
-            { value: "100+", label: "Networks Setup" },
+            { value: "200+", label: "Computer sales" },
+               { value: "50+", label: "CCTV Projects" },
+            { value: "40+", label: "Networks Setup" },
+             { value: "10+", label: "Biomatric System" },
+             { value: "20+", label: "IT Infrasructure Setuped" },
+             { value: "24/7", label: "Technical Support" },
           ].map((s, i) => (
             <div key={i} className="portfolio-stat card">
               <div className="stat-value">{s.value}</div>
