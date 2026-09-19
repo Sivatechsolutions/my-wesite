@@ -126,7 +126,7 @@ export default function Contact() {
               <div className="contact__success card">
                 <div className="success-emoji">🎉</div>
                 <h3>Thank You!</h3>
-                <p>Your enquiry has been received. <strong>R. Siva Prakash</strong> will contact you within 24 hours.</p>
+                <p>Your enquiry has been received. <strong></strong> will contact you within 24 hours.</p>
                 <div className="success-direct">
                   <p>For immediate response:</p>
                   <a href="tel:9489651231" className="btn btn-gold">📞 Call Now: 9489651231</a>
