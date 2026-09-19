@@ -62,10 +62,15 @@ const stats = [
 const highlights = [
   { icon: "💻", text: "Software Development" },
   { icon: "🌐", text: "Web Development" },
+  { icon: "🖥️", text: "Computer Sales & service" },
+  { icon: "🌐", text: "IT Infrastructure" },
+{ icon: "💻", text: "Laptop Sales" },
+{ icon: "⚙️", text: "Custom PC Building" },
+{ icon: "🎮", text: "Gaming & Editing PCs" },
+{ icon: "🤖", text: "AI Technology" },
   { icon: "📹", text: "CCTV Systems" },
   { icon: "🔌", text: "Networking" },
-  { icon: "🖥️", text: "Computer Sales & service" },
-  { icon: "📶", text: "Biometric Systems" },
+   { icon: "📶", text: "Biometric Systems" },
 ];
 
 export default function Hero({ setActivePage }) {

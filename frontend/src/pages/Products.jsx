@@ -27,7 +27,63 @@ const products = [
     clients: "Swathy Finance, Nagercoil",
   },
   {
-    id: 2,
+
+  id: 2,
+  name: "TextileMate Cloud",
+  subtitle: "Cloud-Based Textile Management System",
+  icon: "🧵",
+  category: "Textile & Retail",
+  badge: " live Cloud",
+  badgeType: "gold",
+  price: "₹25,000",
+  amc: "₹3,500/yr",
+  desc: "Complete cloud-based textile business management with product management, barcode billing, inventory, purchase, sales, customer management and real-time business reports.",
+  features: [
+    "Cloud-Based Access",
+    "Product & Stock Management",
+    "Barcode Generation & Billing",
+    "Purchase & Sales Management",
+    "Customer Management",
+    "Supplier Management",
+    "GST Billing",
+    "Real-Time Dashboard & Reports",
+    "Multi-User Support",
+    "Backup & Data Security",
+  ],
+  tech: ["React", "Django", "MySQL", "REST API"],
+  clients: "Textile & Retail Businesses"
+
+  },
+  {
+
+  id: 3,
+  name: "SJBL International Nurses Academy",
+  subtitle: "Nursing Education & Training Website",
+  icon: "👩‍⚕️",
+  category: "Education & Healthcare",
+  badge: "Live",
+  badgeType: "gold",
+  price: "₹25,000",
+  amc: "₹3,500/yr",
+  desc: "Professional nursing academy website with course information, exam preparation programs, student resources, placement support and secure PDF learning materials.",
+  features: [
+    "Professional Academy Website",
+    "Course & Program Management",
+    "DHA / HAAD / DOH / MOH Preparation",
+    "Prometric Exam Preparation",
+    "NCLEX & NORCET Programs",
+    "Student Resources & Materials",
+    "Secure PDF Viewer",
+    "Placement Support Information",
+    "Admin Panel",
+    "Responsive Mobile Design",
+  ],
+  tech: ["React", "Vite", "PHP", "MySQL", "REST API"],
+  clients: "SJBL International Nurses Academy"
+
+  },
+  {
+    id: 4,
     name: "MediLab Pro",
     subtitle: "Laboratory Management System",
     icon: "🔬",
@@ -51,7 +107,7 @@ const products = [
     clients: "Multiple labs in KK District",
   },
   {
-    id: 3,
+    id: 5,
     name: "HospitalMate Pro",
     subtitle: "Hospital Management System",
     icon: "🏥",
@@ -75,7 +131,7 @@ const products = [
     clients: "Available for deployment",
   },
   {
-    id: 4,
+    id: 6,
     name: "MediPharmacy",
     subtitle: "Pharmacy Management System",
     icon: "💊",
@@ -99,7 +155,7 @@ const products = [
     clients: "Ready to deploy",
   },
   {
-    id: 5,
+    id: 7,
     name: "GST Billing Software",
     subtitle: "Business Billing & Invoicing",
     icon: "🧾",
@@ -123,7 +179,7 @@ const products = [
     clients: "Shops across KK District",
   },
   {
-    id: 6,
+    id: 8,
     name: "ShopMate POS",
     subtitle: "Retail Point of Sale System",
     icon: "🛒",
@@ -147,7 +203,7 @@ const products = [
     clients: "Multiple retail shops",
   },
   {
-    id: 7,
+    id: 9,
     name: "TradeShop Pro",
     subtitle: "Hardware & Trade Shop Management",
     icon: "🔧",
@@ -171,7 +227,7 @@ const products = [
     clients: "Hardware shops, KK District",
   },
   {
-    id: 8,
+    id: 10,
     name: "MediWholesale Pro",
     subtitle: "Medical Wholesale Distribution",
     icon: "🏭",

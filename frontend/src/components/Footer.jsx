@@ -54,6 +54,8 @@ export default function Footer({ setActivePage }) {
             <ul className="footer__links">
               {[
                 "Gold Finance Pro",
+                "Textile Pro",
+                "Website",
                 "MediLab Pro",
                 "HospitalMate Pro",
                 "MediPharmacy",

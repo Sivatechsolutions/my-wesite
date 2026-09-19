@@ -5,82 +5,184 @@ const portfolioItems = [
     title: "Swathy Finance – Gold Loan System",
     category: "Finance Software",
     icon: "🥇",
-    location: " Vellayani",
+    location: " Trivandrum",
     desc: "Complete gold pawn loan management system with dot matrix printing, slab interest calculation, branch management and bank pledge module.",
     tech: ["PHP", "MySQL", "XAMPP", "Bootstrap"],
     status: "Live",
-    year: "2021",
+    year: "2026",
   },
   {
-    title: "MediLab Pro – Pathology Lab",
-    category: "Healthcare Software",
-    icon: "🔬",
-    location: "Kanyakumari District",
-    desc: "Laboratory information system serving multiple labs with barcode reports, SMS delivery, GST billing and doctor referral commission tracking.",
-    tech: ["PHP", "MySQL", "Bootstrap", "FPDF"],
-    status: "Live",
-    year: "2022",
+    title: "Lekshmi Casuals – Cloud Textile Software",
+
+category: "Textile Business Software",
+
+icon: "👕",
+
+location: "Kaliakkavilai Kanyakumari District",
+
+desc: "Cloud-based textile management software for Lekshmi Casuals with product management, barcode support, sales, purchase, stock management, billing and business reports.",
+
+tech: ["React", "Django", "MySQL", "REST API"],
+
+status: "Live",
+
+year: "2026",
   },
   {
-    title: "ShopMate POS – Retail Chain",
-    category: "POS System",
-    icon: "🛒",
-    location: "Multiple locations",
-    desc: "Retail point-of-sale system deployed across multiple shops with barcode scanning, thermal printing and daily sales analytics.",
-    tech: ["PHP", "MySQL", "Bootstrap"],
-    status: "Live",
-    year: "2023",
+   title: "Car World – Business Billing",
+
+category: "GST Billing Software",
+
+icon: "🧾",
+
+location: "Uchakadai Neyyatinkara",
+
+desc: "GST billing and business management software with invoice generation, GST calculations, product management, customer management, sales tracking and business reports.",
+
+tech: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
+
+status: "Live",
+
+year: "2024",
   },
   {
-    title: "CCTV & Networking – Office Complex",
-    category: "Hardware Installation",
-    icon: "📹",
-    location: "Padanthalumoodu",
-    desc: "16-camera HD CCTV system with structured LAN cabling, managed switch setup and remote monitoring configuration for a commercial complex.",
-    tech: ["Dahua CCTV", "Cat6 Cabling", "Managed Switch"],
-    status: "Completed",
-    year: "2023",
+    title: "El Shaddai Clinic & Lab & Medical Complete IT Infrastructure Setup – Commercial Facility",
+
+category: "IT Infrastructure",
+
+icon: "🖥️",
+
+location: "Thiruvalluryalumoodu, Kaliyakkavilai,Tamil Nadu 629172",
+
+desc: "Complete IT infrastructure setup including 7 PCs, 40-camera CCTV system, structured networking, biometric attendance system, printers and PA audio system for a commercial facility.",
+
+tech: ["Desktop PCs", "CCTV", "Networking", "Biometric", "Printers", "PA Audio"],
+
+status: "Live",
+
+year: "2022",
   },
   {
-    title: "GST Billing – Electrical Shop",
-    category: "Business Software",
-    icon: "🧾",
-    location: "Nagercoil",
-    desc: "Complete GST invoicing and inventory management system with GSTR report generation and supplier ledger for an electrical goods retailer.",
-    tech: ["PHP", "MySQL", "Bootstrap"],
-    status: "Live",
-    year: "2023",
+   title: "SJBL International Nurses Academy – Website",
+
+category: "Education Website",
+
+icon: "🎓",
+
+location: "Kaliakkavilai ,Kanyakumari District",
+
+desc: "Professional website developed for SJBL International Nurses Academy with course information, international nursing exam preparation, student resources, placement information and secure content access.",
+
+tech: ["React", "Vite", "PHP", "MySQL", "REST API","10 PC","CCTV","Netwoking","IT support" & "Completed IT Setup"],
+
+status: "Live",
+
+year: "2026",
   },
   {
-    title: "Biometric Attendance – School",
-    category: "Hardware + Software",
-    icon: "🕐",
-    location: "Kanyakumari District",
-    desc: "Fingerprint-based attendance system with automated payroll integration, monthly reports and SMS alerts for staff management.",
-    tech: ["ZKTeco Device", "PHP", "MySQL"],
-    status: "Completed",
-    year: "2022",
+    title: "ZYGA Solutions – IT Solutions",
+
+category: "IT Solutions & Services",
+
+icon: "💻",
+
+location: "Vazhuthacaud, Trivandrum",
+
+desc: "Complete IT solutions and technology services provided for ZYGA Solutions, including computer systems, networking, software support, IT infrastructure and business technology solutions.",
+
+tech: ["IT Infrastructure", "Networking", "Computer Systems", "Software Solutions"],
+
+status: "Live",
+
+year: "2022",
   },
   {
-    title: "HospitalMate Pro – Clinic Chain",
-    category: "Healthcare Software",
-    icon: "🏥",
-    location: "Trivandrum (Demo)",
-    desc: "Full hospital management system with OPD, IPD, pharmacy, lab modules, GST billing and EMR — currently in deployment phase.",
-    tech: ["PHP", "MySQL", "Laravel", "Bootstrap"],
-    status: "Deploying",
-    year: "2024",
+    title: "Collection Agency Co-operative Society – IT Support",
+
+category: "IT Support & AMC",
+
+icon: "🛠️",
+
+location: "Killipaalam,Trivandrum District",
+
+desc: "Complete IT support and maintenance services for a co-operative society, including computer systems, software support, networking, troubleshooting, printer support and Annual Maintenance Contract (AMC) services.",
+
+tech: ["IT Support", "Networking", "Computer Maintenance", "Printer Support", "AMC"],
+
+status: "Live",
+
+year: "2022",
   },
   {
-    title: "TradeShop Pro – Hardware Distributor",
-    category: "Business Software",
-    icon: "🔧",
-    location: "KK District",
-    desc: "Trade shop management with multi-category products, credit ledger, purchase and sales tracking for a hardware distributor.",
-    tech: ["PHP", "MySQL", "Bootstrap"],
-    status: "Live",
-    year: "2024",
+    title: "JAKSMAR INDIA PVT LTD – Complete IT Support",
+
+category: "IT Infrastructure & Support",
+
+icon: "🖥️",
+
+location: "industrial Estate,Pappanamcode, Thiruvananthapuram, District",
+
+desc: "Complete IT support and infrastructure services including computer setup, networking, CCTV installation, system configuration, troubleshooting and ongoing technical support.",
+
+tech: ["Computer Systems", "Networking", "CCTV", "IT Support", "System Setup"],
+
+status: "Live",
+
+year: "2022",
   },
+  {
+title: "JUDESIGN Engineering & Procurement Pvt Ltd – Complete IT Solutions",
+
+category: "IT Solutions & Infrastructure",
+
+icon: "💻",
+
+location: "Parvathypuram, Nagercoil",
+
+desc: "Complete IT solutions and technical support services including computer systems, networking, software support, system setup, troubleshooting and IT infrastructure management.",
+
+tech: ["Computer Systems", "Networking", "Software Solutions", "IT Support", "Infrastructure"],
+
+status: "Live",
+
+year: "2026",
+
+  },
+  {
+title: "Survey Records & Co-operative Society – IT Support",
+
+category: "IT Support & Services",
+
+icon: "🖥️",
+
+location: "Vazhuthacaud, Trivandrum",
+
+desc: "Complete IT support and service including computer and printer setup, networking, system maintenance, troubleshooting and ongoing technical assistance for the society.",
+
+tech: ["Computer Systems", "Printers", "Networking", "IT Support", "Maintenance"],
+
+status: "Live",
+
+year: "2023",
+
+  },
+  {
+    title: "Ravi Memorial Clinic – IT Setup & Support",
+
+category: "IT Infrastructure & Support",
+
+icon: "🏥",
+
+location: "Padanthalumoodu",
+
+desc: "Complete IT setup and support for Ravi Memorial Clinic, including computer systems, printer setup, biometric attendance and ongoing technical support.",
+
+tech: ["Computer Systems", "Printers", "Biometric", "IT Support"],
+
+status: "Live",
+
+year: "2024",
+  }
 ];
 
 const statusColor = {
@@ -106,11 +208,11 @@ export default function Portfolio() {
           {[
             { value: "100+", label: "Happy Clients" },
             { value: "15+", label: "Software Products" },
-            { value: "200+", label: "Computer sales" },
-               { value: "50+", label: "CCTV Projects" },
-            { value: "40+", label: "Networks Setup" },
-             { value: "10+", label: "Biomatric System" },
-             { value: "20+", label: "IT Infrasructure Setuped" },
+            { value: "300+", label: "Computer sales" },
+               { value: "70+", label: "CCTV Projects" },
+            { value: "100+", label: "Networks Setup" },
+             { value: "40+", label: "Biomatric System" },
+             { value: "50+", label: "IT Infrasructure Setuped" },
              { value: "24/7", label: "Technical Support" },
           ].map((s, i) => (
             <div key={i} className="portfolio-stat card">

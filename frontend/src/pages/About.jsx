@@ -63,7 +63,7 @@ export default function About() {
   alt="R. Siva Prakash" 
   style={{ 
     width: "130%", 
-    height: "130%", 
+    height: "110%", 
     objectFit: "cover",
     objectPosition: "center top",
     borderRadius: "12px",

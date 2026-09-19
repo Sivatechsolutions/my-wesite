@@ -2,9 +2,9 @@ import "./Testimonials.css";
 
 const testimonials = [
   {
-    name: "Rajesh Kumar",
+    name: "Harshan",
     business: "Swathy Finance",
-    location: "Nagercoil",
+    location: "Trivandrum",
     icon: "🥇",
     rating: 5,
     text: "The Gold Finance software has completely transformed how we manage our pawn loans. Interest calculation is automatic, receipts print perfectly on our dot matrix printer. Siva Sir's support is always available — day or night!",
@@ -20,22 +20,24 @@ const testimonials = [
     product: "MediLab Pro",
   },
   {
-    name: "Muthu Krishnan",
-    business: "Muthu Electricals",
-    location: "Colachel",
+    name: "Nanthu",
+    business: "Car world",
+    location: "Uchakadai",
     icon: "🧾",
     rating: 5,
     text: "GST billing has become so easy with Siva Tech's billing software. My staff learned it in one day. GSTR reports are ready in minutes. Best investment for my business!",
     product: "GST Billing Software",
   },
   {
-    name: "Selvam Constructions",
-    business: "Hardware & Paint Shop",
-    location: "Padanthalumoodu",
-    icon: "🔧",
-    rating: 5,
-    text: "TradeShop Pro handles all our hardware shop needs — credit customers, stock tracking, supplier payments. Siva Sir customized it exactly as we wanted. Very happy with the service.",
-    product: "TradeShop Pro",
+  
+  name: "R Jegan",
+  business: "Lekshmi Casuals",
+  location: "Kaliakkavilai",
+  icon: "🧵",
+  rating: 5,
+  text: "TextileMate Cloud handles all our textile shop needs — product management, barcode billing, stock tracking, purchases and sales. The cloud-based system makes it easy to manage our business and access reports. Siva Sir customized it exactly as we wanted. Very happy with the service.",
+  product: "TextileMate Cloud"
+
   },
   {
     name: "Priya Pharmacy",
@@ -47,13 +49,15 @@ const testimonials = [
     product: "MediPharmacy",
   },
   {
-    name: "Suresh Enterprises",
-    business: "Retail Store",
-    location: "Marthandam",
-    icon: "🛒",
-    rating: 5,
-    text: "ShopMate POS is fast and very easy to use. Barcode scanning, billing, daily reports — all works perfectly. CCTV installation by Siva Tech team is also excellent quality.",
-    product: "ShopMate POS + CCTV",
+    
+  name: "El Shaddai Clinic & Lab & Medical",
+  business: "Clinic, Laboratory & Medical Centre",
+  location: "Thiruvalluryalumoodu, Kaliyakkavilai, Kulappuram, Tamil Nadu 629172",
+  icon: "🏥",
+  rating: 5,
+  text: "Siva Tech Solutions provided complete IT infrastructure development for El Shaddai Clinic & Lab & Medical. The project included 10+ computers, 40 CCTV cameras, complete networking, biometric attendance/access systems and a PA audio system. The entire IT infrastructure was professionally designed, installed and configured to meet our operational needs.",
+  product: "Complete IT Infrastructure Development"
+
   },
 ];
 
